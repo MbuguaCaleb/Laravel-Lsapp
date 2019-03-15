@@ -8,7 +8,6 @@
 
     </head>
     <body>
-
         @include('inc.navbar')
         <br><br><br><br>
         <div class="container">
