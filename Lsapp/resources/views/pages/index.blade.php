@@ -2,6 +2,7 @@
 
 @section('content')
 
+
 <div class="jumbotron jumbotron-fluid text-center">
 
         <h1 class="display-4">Welcome To Laravel!</h1>
@@ -13,6 +14,8 @@
       </div>
 
 @endsection
+
+
 
 
 
