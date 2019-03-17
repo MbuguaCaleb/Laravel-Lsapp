@@ -9,7 +9,7 @@
     <div class="card-body">
             <h5 class="card-title"><a href="/posts/{{$post->id}}">{{$post->title}}</a></h5>
            <p class="card-text">
-                <small>Written on{{$post->created_at}}</small>
+                <small>Written on{{$post->created_at}} by {{$post->user->name}}</small>
             </div>
            </p>
     </div>
