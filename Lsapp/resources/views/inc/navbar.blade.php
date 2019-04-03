@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-md navbar-light navbar-dark bg-dark ">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
-            {{ config('app.name', 'Laravel') }}
+            Acacia EPZ
+
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
@@ -11,7 +12,7 @@
                 <li><a class="nav-link"  href="/">Home</a></li>
                 <li><a class="nav-link"href="/about">About</a></li>
                 <li><a class="nav-link" href="/services">Services</a></li>
-                <li><a class="nav-link" href="/posts">Blog</a></li>
+                <li><a class="nav-link" href="/posts">Products</a></li>
               </ul>
 
             <!-- Right Side Of Navbar -->

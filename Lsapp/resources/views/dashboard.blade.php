@@ -13,8 +13,9 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    <a href="/posts/create" class="btn btn-primary">Create Posts</a>
-                 <h3>Your Blog Posts</h3>
+                    <a href="/posts/create" class="btn btn-primary">New Product</a>
+                 <h3>Your Product List</h3>
+
                  @if(count($posts)>0)
                <table class="table table-striped">
                    <tr>
@@ -39,7 +40,7 @@
                 @endforeach
                </table>
                @else
-               <p>You have no Posts!</p>
+               <p>You have no Products!</p>
 
                @endif
 
