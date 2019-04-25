@@ -3,8 +3,14 @@
 @section('content')
 
 <a href="/posts" class="btn btn-outline-primary">Go Back</a>
-<a href="/posts" class="btn btn-outline-primary">Check Details</a>
+<a href="/posts" class="btn btn-outline-primary ">Check Details</a>
+
+<a href="/posts" class="btn btn-outline-danger float-right" >Approve Lot</a>
+
+
 <h1>{{$post->title}}</h1>
+<image style="width:100%" src="/storage/cover_images/{{$post->cover_image}}">
+    <br><br>
 <div>
     {!!$post->body!!}
 </div>
